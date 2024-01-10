@@ -1,5 +1,5 @@
 #Using offical maven image as a parent image
-FROM maven:3.5-jdk-8-alpine as build
+FROM maven:3.6-jdk-8-alpine as build
 
 #Setting the working directory to /app
 WORKDIR /app
