@@ -28,5 +28,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: dimadockerid1234/my-docker-hub-repo:1.0.0
           labels: ${{ steps.meta.outputs.labels }}
