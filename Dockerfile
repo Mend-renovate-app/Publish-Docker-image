@@ -9,6 +9,4 @@ COPY . .
 
 #Display version information
 RUN mvn -v
-
-#Builds the Maven project
-RUN mvn install
+RUN mvn -v
